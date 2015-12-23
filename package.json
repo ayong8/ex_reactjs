@@ -1,0 +1,22 @@
+{
+  "name": "ex_working_notes",
+  "version": "1.0.0",
+  "description": "exercise for reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ayong8/ex_reactjs.git"
+  },
+  "keywords": [
+    "github77"
+  ],
+  "author": "ayong8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayong8/ex_reactjs/issues"
+  },
+  "homepage": "https://github.com/ayong8/ex_reactjs#readme"
+}
