@@ -1,0 +1,1105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-router',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/yong8/Workspace/reactjs/ex_working_notes/package.json
+6 warn package.json catch-of-the-day@1.0.0 No description
+7 warn package.json catch-of-the-day@1.0.0 No repository field.
+8 warn package.json catch-of-the-day@1.0.0 No README data
+9 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/autobind-decorator/package.json
+10 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/babel/package.json
+11 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/babelify/package.json
+12 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/body-parser/package.json
+13 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/browser-sync/package.json
+14 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/browserify/package.json
+15 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/connect-history-api-fallback/package.json
+16 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/express/package.json
+17 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/firebase/package.json
+18 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp/package.json
+19 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-autoprefixer/package.json
+20 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-concat/package.json
+21 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-html-replace/package.json
+22 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-notify/package.json
+23 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-react/package.json
+24 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-rename/package.json
+25 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-stylus/package.json
+26 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-uglify/package.json
+27 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-util/package.json
+28 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/history/package.json
+29 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/install/package.json
+30 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/re-base/package.json
+31 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react/package.json
+32 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-addons-css-transition-group/package.json
+33 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-catalyst/package.json
+34 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-dom/package.json
+35 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-mixin/package.json
+36 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/package.json
+37 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/vinyl-buffer/package.json
+38 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/vinyl-source-stream/package.json
+39 verbose installManyTop reading scoped package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/watchify/package.json
+40 info package.json autobind-decorator@1.3.2 No repository field.
+41 info package.json firebase@2.3.1 No license field.
+42 info package.json gulp-notify@2.2.0 No license field.
+43 info package.json gulp-rename@1.2.2 No license field.
+44 info package.json re-base@1.2.1 No license field.
+45 info package.json react-addons-css-transition-group@0.14.0 No repository field.
+46 info package.json install@0.1.8 No license field.
+47 info package.json react-catalyst@0.3.0 No license field.
+48 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/package.json
+49 verbose install react-router is installed as 1.0.0-rc3
+50 silly cache add args [ 'react-router', null ]
+51 verbose cache add spec react-router
+52 silly cache add parsed spec { raw: 'react-router',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'react-router',
+52 silly cache add   rawSpec: '',
+52 silly cache add   spec: '*',
+52 silly cache add   type: 'range' }
+53 silly addNamed react-router@*
+54 verbose addNamed "*" is a valid semver range for react-router
+55 silly addNameRange { name: 'react-router', range: '*', hasData: false }
+56 silly mapToRegistry name react-router
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/react-router
+60 verbose addNameRange registry:https://registry.npmjs.org/react-router not in flight; fetching
+61 verbose request uri https://registry.npmjs.org/react-router
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 17:43:48
+64 verbose request id a5ea6efe6657b93d
+65 verbose etag "3KCY92KZV91J6QE6VI6K457H8"
+66 http request GET https://registry.npmjs.org/react-router
+67 http 200 https://registry.npmjs.org/react-router
+68 silly get cb [ 200,
+68 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+68 silly get     etag: '"AP5L2K0PFAWNXGMUEHI461S5E"',
+68 silly get     'content-type': 'application/json',
+68 silly get     'cache-control': 'max-age=300',
+68 silly get     'content-length': '113553',
+68 silly get     'accept-ranges': 'bytes',
+68 silly get     date: 'Sat, 02 Jan 2016 22:43:48 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     age: '138',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-jfk1025-JFK',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '2',
+68 silly get     'x-timer': 'S1451774628.378335,VS0,VE0',
+68 silly get     vary: 'Accept' } ]
+69 verbose get saving react-router to /Users/yong8/.npm/registry.npmjs.org/react-router/.cache.json
+70 silly addNameRange number 2 { name: 'react-router', range: '*', hasData: true }
+71 silly addNameRange versions [ 'react-router',
+71 silly addNameRange   [ '0.0.0',
+71 silly addNameRange     '0.0.1',
+71 silly addNameRange     '0.4.0',
+71 silly addNameRange     '0.4.1',
+71 silly addNameRange     '0.4.2',
+71 silly addNameRange     '0.5.0',
+71 silly addNameRange     '0.5.1',
+71 silly addNameRange     '0.5.2',
+71 silly addNameRange     '0.5.3',
+71 silly addNameRange     '0.6.0',
+71 silly addNameRange     '0.6.1',
+71 silly addNameRange     '0.7.0',
+71 silly addNameRange     '0.8.0',
+71 silly addNameRange     '0.9.0',
+71 silly addNameRange     '0.9.1',
+71 silly addNameRange     '0.9.2',
+71 silly addNameRange     '0.9.3',
+71 silly addNameRange     '0.9.4',
+71 silly addNameRange     '0.9.5',
+71 silly addNameRange     '0.10.0',
+71 silly addNameRange     '0.10.1',
+71 silly addNameRange     '0.10.2',
+71 silly addNameRange     '0.11.0',
+71 silly addNameRange     '0.11.1',
+71 silly addNameRange     '0.11.2',
+71 silly addNameRange     '0.11.3',
+71 silly addNameRange     '0.11.4',
+71 silly addNameRange     '0.11.5',
+71 silly addNameRange     '0.11.6',
+71 silly addNameRange     '0.12.0',
+71 silly addNameRange     '0.12.1',
+71 silly addNameRange     '0.12.2',
+71 silly addNameRange     '0.12.3',
+71 silly addNameRange     '0.12.4',
+71 silly addNameRange     '0.13.0',
+71 silly addNameRange     '0.13.1',
+71 silly addNameRange     '0.13.2',
+71 silly addNameRange     '0.13.3',
+71 silly addNameRange     '1.0.0-alpha1',
+71 silly addNameRange     '1.0.0-alpha2',
+71 silly addNameRange     '1.0.0-beta1',
+71 silly addNameRange     '1.0.0-beta2',
+71 silly addNameRange     '1.0.0-beta3',
+71 silly addNameRange     '1.0.0-beta4',
+71 silly addNameRange     '1.0.0-rc1',
+71 silly addNameRange     '0.13.4',
+71 silly addNameRange     '1.0.0-rc2',
+71 silly addNameRange     '1.0.0-rc3',
+71 silly addNameRange     '0.13.5',
+71 silly addNameRange     '1.0.0-rc4',
+71 silly addNameRange     '1.0.0',
+71 silly addNameRange     '1.0.1',
+71 silly addNameRange     '1.0.2',
+71 silly addNameRange     '1.0.3',
+71 silly addNameRange     '2.0.0-rc1',
+71 silly addNameRange     '2.0.0-rc2',
+71 silly addNameRange     '2.0.0-rc3',
+71 silly addNameRange     '2.0.0-rc4' ] ]
+72 silly addNamed react-router@1.0.3
+73 verbose addNamed "1.0.3" is a plain semver version for react-router
+74 silly mapToRegistry name react-router
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/react-router
+78 verbose addRemoteTarball https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz not in flight; adding
+79 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz',
+79 verbose addRemoteTarball   '980ecaa055b86e47c86548c232ae05a88a41f0b7' ]
+80 info retry fetch attempt 1 at 17:43:48
+81 info attempt registry request try #1 at 17:43:48
+82 http fetch GET https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz
+83 http fetch 200 https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz
+84 silly fetchAndShaCheck shasum 980ecaa055b86e47c86548c232ae05a88a41f0b7
+85 verbose addTmpTarball /var/folders/00/2sc2yrgd4ps4tdvvmnp0br3w0000gn/T/npm-48163-38555434/registry.npmjs.org/react-router/-/react-router-1.0.3.tgz not in flight; adding
+86 verbose addTmpTarball already have metadata; skipping unpack for react-router@1.0.3
+87 silly cache afterAdd react-router@1.0.3
+88 verbose afterAdd /Users/yong8/.npm/react-router/1.0.3/package/package.json not in flight; writing
+89 verbose afterAdd /Users/yong8/.npm/react-router/1.0.3/package/package.json written
+90 silly install resolved [ { name: 'react-router',
+90 silly install resolved     version: '1.0.3',
+90 silly install resolved     description: 'A complete routing library for React.js',
+90 silly install resolved     files: [ '*.md', 'docs', 'es6', 'lib', 'npm-scripts', 'umd' ],
+90 silly install resolved     main: 'lib/index',
+90 silly install resolved     'jsnext:main': 'es6/index',
+90 silly install resolved     repository:
+90 silly install resolved      { type: 'git',
+90 silly install resolved        url: 'git+https://github.com/rackt/react-router.git' },
+90 silly install resolved     homepage: 'https://rackt.github.io/react-router/',
+90 silly install resolved     bugs: { url: 'https://github.com/rackt/react-router/issues' },
+90 silly install resolved     scripts:
+90 silly install resolved      { build: 'npm run build-cjs && npm run build-es6',
+90 silly install resolved        'build-cjs': 'rimraf lib && babel ./modules -d lib --ignore \'__tests__\'',
+90 silly install resolved        'build-es6': 'rimraf es6 && babel ./modules -d es6 --blacklist=es6.modules --ignore \'__tests__\'',
+90 silly install resolved        'build-umd': 'NODE_ENV=production webpack modules/index.js umd/ReactRouter.js',
+90 silly install resolved        'build-min': 'NODE_ENV=production webpack -p modules/index.js umd/ReactRouter.min.js',
+90 silly install resolved        lint: 'eslint modules examples',
+90 silly install resolved        start: 'node examples/server.js',
+90 silly install resolved        test: 'npm run lint && npm run test-node && npm run test-browser',
+90 silly install resolved        'test-browser': 'karma start',
+90 silly install resolved        'test-node': 'mocha --compilers js:babel-core/register tests.node.js',
+90 silly install resolved        postinstall: 'node ./npm-scripts/postinstall.js' },
+90 silly install resolved     authors: [ 'Ryan Florence', 'Michael Jackson' ],
+90 silly install resolved     license: 'MIT',
+90 silly install resolved     dependencies: { invariant: '^2.0.0', warning: '^2.0.0' },
+90 silly install resolved     peerDependencies: { history: '^1.17.0' },
+90 silly install resolved     devDependencies:
+90 silly install resolved      { babel: '^5.4.7',
+90 silly install resolved        'babel-core': '^5.4.7',
+90 silly install resolved        'babel-eslint': '^4.1.6',
+90 silly install resolved        'babel-loader': '^5.0.0',
+90 silly install resolved        'babel-plugin-dev-expression': '^0.1.0',
+90 silly install resolved        'bundle-loader': '^0.5.2',
+90 silly install resolved        'codecov.io': '^0.1.6',
+90 silly install resolved        coveralls: '^2.11.4',
+90 silly install resolved        'css-loader': '^0.19.0',
+90 silly install resolved        eslint: '^1.7.3',
+90 silly install resolved        'eslint-config-rackt': '^1.1.0',
+90 silly install resolved        'eslint-plugin-react': '^3.6.3',
+90 silly install resolved        expect: '^1.12.0',
+90 silly install resolved        express: '^4.13.3',
+90 silly install resolved        'express-urlrewrite': '^1.2.0',
+90 silly install resolved        'gzip-size': '^3.0.0',
+90 silly install resolved        history: '^1.17.0',
+90 silly install resolved        'isparta-loader': '^1.0.0',
+90 silly install resolved        karma: '^0.13.13',
+90 silly install resolved        'karma-browserstack-launcher': '^0.1.4',
+90 silly install resolved        'karma-chrome-launcher': '^0.2.0',
+90 silly install resolved        'karma-coverage': '^0.5.3',
+90 silly install resolved        'karma-mocha': '^0.2.0',
+90 silly install resolved        'karma-mocha-reporter': '^1.1.1',
+90 silly install resolved        'karma-sourcemap-loader': '^0.3.5',
+90 silly install resolved        'karma-webpack': '^1.7.0',
+90 silly install resolved        mocha: '^2.0.1',
+90 silly install resolved        'pretty-bytes': '^2.0.1',
+90 silly install resolved        qs: '^4.0.0',
+90 silly install resolved        react: '^0.14.0',
+90 silly install resolved        'react-addons-css-transition-group': '^0.14.0',
+90 silly install resolved        'react-addons-test-utils': '0.14.0',
+90 silly install resolved        'react-dom': '^0.14.0',
+90 silly install resolved        'react-static-container': '^1.0.0',
+90 silly install resolved        rimraf: '^2.4.3',
+90 silly install resolved        'style-loader': '^0.12.4',
+90 silly install resolved        webpack: '^1.4.13',
+90 silly install resolved        'webpack-dev-middleware': '^1.2.0' },
+90 silly install resolved     tags: [ 'react', 'router' ],
+90 silly install resolved     keywords:
+90 silly install resolved      [ 'react',
+90 silly install resolved        'react-component',
+90 silly install resolved        'routing',
+90 silly install resolved        'route',
+90 silly install resolved        'routes',
+90 silly install resolved        'router' ],
+90 silly install resolved     gitHead: 'f0456b75eee362a179e6b49bbe5add95fb734f80',
+90 silly install resolved     _id: 'react-router@1.0.3',
+90 silly install resolved     _shasum: '980ecaa055b86e47c86548c232ae05a88a41f0b7',
+90 silly install resolved     _from: 'react-router@*',
+90 silly install resolved     _npmVersion: '3.5.2',
+90 silly install resolved     _nodeVersion: '4.2.1',
+90 silly install resolved     _npmUser: { name: 'ryanflorence', email: 'rpflorence@gmail.com' },
+90 silly install resolved     maintainers: [ [Object], [Object] ],
+90 silly install resolved     dist:
+90 silly install resolved      { shasum: '980ecaa055b86e47c86548c232ae05a88a41f0b7',
+90 silly install resolved        tarball: 'http://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz' },
+90 silly install resolved     directories: {},
+90 silly install resolved     _resolved: 'https://registry.npmjs.org/react-router/-/react-router-1.0.3.tgz' } ]
+91 info install react-router@1.0.3 into /Users/yong8/Workspace/reactjs/ex_working_notes
+92 info installOne react-router@1.0.3
+93 verbose installOne of react-router to /Users/yong8/Workspace/reactjs/ex_working_notes not in flight; installing
+94 verbose lock using /Users/yong8/.npm/_locks/react-router-d42b2bd50ce84adb.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+95 silly install write writing react-router 1.0.3 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+96 verbose unbuild node_modules/react-router
+97 info preuninstall react-router@1.0.0-rc3
+98 info uninstall react-router@1.0.0-rc3
+99 verbose unbuild rmStuff react-router@1.0.0-rc3 from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules
+100 info postuninstall react-router@1.0.0-rc3
+101 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+102 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+103 silly vacuum-fs purging /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+104 silly vacuum-fs quitting because other entries in /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules
+105 verbose tar unpack /Users/yong8/.npm/react-router/1.0.3/package.tgz
+106 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+107 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router is being purged
+108 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+109 silly gunzTarPerm modes [ '755', '644' ]
+110 silly gunzTarPerm extractEntry package.json
+111 silly gunzTarPerm extractEntry README.md
+112 silly gunzTarPerm extractEntry CONTRIBUTING.md
+113 silly gunzTarPerm extractEntry LICENSE.md
+114 silly gunzTarPerm extractEntry SPONSORS.md
+115 silly gunzTarPerm extractEntry docs/README.md
+116 silly gunzTarPerm extractEntry docs/API.md
+117 silly gunzTarPerm extractEntry docs/Glossary.md
+118 silly gunzTarPerm extractEntry docs/Introduction.md
+119 silly gunzTarPerm extractEntry docs/Troubleshooting.md
+120 silly gunzTarPerm extractEntry docs/guides/advanced/README.md
+121 silly gunzTarPerm extractEntry docs/guides/advanced/ComponentLifecycle.md
+122 silly gunzTarPerm extractEntry docs/guides/advanced/ConfirmingNavigation.md
+123 silly gunzTarPerm extractEntry docs/guides/advanced/DynamicRouting.md
+124 silly gunzTarPerm extractEntry docs/guides/advanced/NavigatingOutsideOfComponents.md
+125 silly gunzTarPerm extractEntry docs/guides/advanced/ServerRendering.md
+126 silly gunzTarPerm extractEntry docs/guides/basics/README.md
+127 silly gunzTarPerm extractEntry docs/guides/basics/Histories.md
+128 silly gunzTarPerm extractEntry docs/guides/basics/IndexRoutes.md
+129 silly gunzTarPerm extractEntry docs/guides/basics/RouteConfiguration.md
+130 silly gunzTarPerm extractEntry docs/guides/basics/RouteMatching.md
+131 silly gunzTarPerm extractEntry docs/guides/testing.md
+132 silly gunzTarPerm extractEntry lib/AsyncUtils.js
+133 silly gunzTarPerm extractEntry lib/PropTypes.js
+134 silly gunzTarPerm extractEntry lib/Redirect.js
+135 silly gunzTarPerm extractEntry lib/Route.js
+136 silly gunzTarPerm extractEntry lib/RouteContext.js
+137 silly gunzTarPerm extractEntry lib/PatternUtils.js
+138 silly gunzTarPerm extractEntry lib/Router.js
+139 silly gunzTarPerm extractEntry lib/RoutingContext.js
+140 silly gunzTarPerm extractEntry lib/TransitionUtils.js
+141 silly gunzTarPerm extractEntry lib/computeChangedRoutes.js
+142 silly gunzTarPerm extractEntry lib/getComponents.js
+143 silly gunzTarPerm extractEntry lib/Link.js
+144 silly gunzTarPerm extractEntry lib/getRouteParams.js
+145 silly gunzTarPerm extractEntry lib/Lifecycle.js
+146 silly gunzTarPerm extractEntry lib/index.js
+147 silly gunzTarPerm extractEntry lib/IndexRoute.js
+148 silly gunzTarPerm extractEntry lib/isActive.js
+149 silly gunzTarPerm extractEntry lib/IndexRedirect.js
+150 silly gunzTarPerm extractEntry lib/match.js
+151 silly gunzTarPerm extractEntry lib/IndexLink.js
+152 silly gunzTarPerm extractEntry lib/matchRoutes.js
+153 silly gunzTarPerm extractEntry lib/History.js
+154 silly gunzTarPerm extractEntry lib/useRoutes.js
+155 silly gunzTarPerm extractEntry lib/RouteUtils.js
+156 silly gunzTarPerm extractEntry umd/ReactRouter.js
+157 silly gunzTarPerm extractEntry umd/ReactRouter.min.js
+158 silly gunzTarPerm extractEntry npm-scripts/postinstall.js
+159 silly gunzTarPerm extractEntry CHANGES.md
+160 silly gunzTarPerm extractEntry es6/AsyncUtils.js
+161 silly gunzTarPerm extractEntry es6/PropTypes.js
+162 silly gunzTarPerm extractEntry es6/Redirect.js
+163 silly gunzTarPerm extractEntry es6/Route.js
+164 silly gunzTarPerm extractEntry es6/RouteContext.js
+165 silly gunzTarPerm extractEntry es6/PatternUtils.js
+166 silly gunzTarPerm extractEntry es6/Router.js
+167 silly gunzTarPerm extractEntry es6/RoutingContext.js
+168 silly gunzTarPerm extractEntry es6/TransitionUtils.js
+169 silly gunzTarPerm extractEntry es6/computeChangedRoutes.js
+170 silly gunzTarPerm extractEntry es6/getComponents.js
+171 silly gunzTarPerm extractEntry es6/Link.js
+172 silly gunzTarPerm extractEntry es6/getRouteParams.js
+173 silly gunzTarPerm extractEntry es6/Lifecycle.js
+174 silly gunzTarPerm extractEntry es6/index.js
+175 silly gunzTarPerm extractEntry es6/IndexRoute.js
+176 silly gunzTarPerm extractEntry es6/isActive.js
+177 silly gunzTarPerm extractEntry es6/IndexRedirect.js
+178 silly gunzTarPerm extractEntry es6/match.js
+179 silly gunzTarPerm extractEntry es6/IndexLink.js
+180 silly gunzTarPerm extractEntry es6/matchRoutes.js
+181 silly gunzTarPerm extractEntry es6/History.js
+182 silly gunzTarPerm extractEntry es6/useRoutes.js
+183 silly gunzTarPerm extractEntry es6/RouteUtils.js
+184 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/package.json
+185 info preinstall react-router@1.0.3
+186 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/package.json
+187 silly prepareForInstallMany adding invariant@^2.0.0 from react-router dependencies
+188 silly prepareForInstallMany adding warning@^2.0.0 from react-router dependencies
+189 silly prepareForInstallMany adding history@^1.17.0 from react-router peerDependencies
+190 warn peerDependencies The peer dependency history@^1.17.0 included from react-router will no
+191 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+192 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+193 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/package.json
+194 silly cache add args [ 'invariant@^2.0.0', null ]
+195 verbose cache add spec invariant@^2.0.0
+196 silly cache add args [ 'warning@^2.0.0', null ]
+197 verbose cache add spec warning@^2.0.0
+198 silly cache add parsed spec { raw: 'invariant@^2.0.0',
+198 silly cache add   scope: null,
+198 silly cache add   name: 'invariant',
+198 silly cache add   rawSpec: '^2.0.0',
+198 silly cache add   spec: '>=2.0.0 <3.0.0',
+198 silly cache add   type: 'range' }
+199 silly addNamed invariant@>=2.0.0 <3.0.0
+200 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for invariant
+201 silly addNameRange { name: 'invariant', range: '>=2.0.0 <3.0.0', hasData: false }
+202 silly mapToRegistry name invariant
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry uri https://registry.npmjs.org/invariant
+206 verbose addNameRange registry:https://registry.npmjs.org/invariant not in flight; fetching
+207 silly cache add parsed spec { raw: 'warning@^2.0.0',
+207 silly cache add   scope: null,
+207 silly cache add   name: 'warning',
+207 silly cache add   rawSpec: '^2.0.0',
+207 silly cache add   spec: '>=2.0.0 <3.0.0',
+207 silly cache add   type: 'range' }
+208 silly addNamed warning@>=2.0.0 <3.0.0
+209 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for warning
+210 silly addNameRange { name: 'warning', range: '>=2.0.0 <3.0.0', hasData: false }
+211 silly mapToRegistry name warning
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry uri https://registry.npmjs.org/warning
+215 verbose addNameRange registry:https://registry.npmjs.org/warning not in flight; fetching
+216 verbose request uri https://registry.npmjs.org/invariant
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 17:43:49
+219 verbose etag "EAEV491AYUM88PAMO3LNXG2J7"
+220 http request GET https://registry.npmjs.org/invariant
+221 verbose request uri https://registry.npmjs.org/warning
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 17:43:49
+224 verbose etag "1K3VVFDR0VAVK3YXHWHQEMTMR"
+225 http request GET https://registry.npmjs.org/warning
+226 http 304 https://registry.npmjs.org/invariant
+227 silly get cb [ 304,
+227 silly get   { date: 'Sat, 02 Jan 2016 22:43:49 GMT',
+227 silly get     via: '1.1 varnish',
+227 silly get     'cache-control': 'max-age=300',
+227 silly get     etag: '"EAEV491AYUM88PAMO3LNXG2J7"',
+227 silly get     age: '30',
+227 silly get     connection: 'keep-alive',
+227 silly get     'x-served-by': 'cache-jfk1037-JFK',
+227 silly get     'x-cache': 'HIT',
+227 silly get     'x-cache-hits': '1',
+227 silly get     'x-timer': 'S1451774629.416413,VS0,VE0',
+227 silly get     vary: 'Accept' } ]
+228 verbose etag https://registry.npmjs.org/invariant from cache
+229 verbose get saving invariant to /Users/yong8/.npm/registry.npmjs.org/invariant/.cache.json
+230 silly addNameRange number 2 { name: 'invariant', range: '>=2.0.0 <3.0.0', hasData: true }
+231 silly addNameRange versions [ 'invariant',
+231 silly addNameRange   [ '1.0.0',
+231 silly addNameRange     '1.0.1',
+231 silly addNameRange     '1.0.2',
+231 silly addNameRange     '2.0.0',
+231 silly addNameRange     '2.1.0',
+231 silly addNameRange     '2.1.1',
+231 silly addNameRange     '2.1.2',
+231 silly addNameRange     '2.1.3',
+231 silly addNameRange     '2.2.0' ] ]
+232 silly addNamed invariant@2.2.0
+233 verbose addNamed "2.2.0" is a plain semver version for invariant
+234 silly cache afterAdd invariant@2.2.0
+235 verbose afterAdd /Users/yong8/.npm/invariant/2.2.0/package/package.json not in flight; writing
+236 verbose afterAdd /Users/yong8/.npm/invariant/2.2.0/package/package.json written
+237 http 304 https://registry.npmjs.org/warning
+238 silly get cb [ 304,
+238 silly get   { date: 'Sat, 02 Jan 2016 22:43:49 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     'cache-control': 'max-age=300',
+238 silly get     etag: '"1K3VVFDR0VAVK3YXHWHQEMTMR"',
+238 silly get     age: '30',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-jfk1022-JFK',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '1',
+238 silly get     'x-timer': 'S1451774629.495888,VS0,VE0',
+238 silly get     vary: 'Accept' } ]
+239 verbose etag https://registry.npmjs.org/warning from cache
+240 verbose get saving warning to /Users/yong8/.npm/registry.npmjs.org/warning/.cache.json
+241 silly addNameRange number 2 { name: 'warning', range: '>=2.0.0 <3.0.0', hasData: true }
+242 silly addNameRange versions [ 'warning', [ '1.0.0', '1.0.1', '1.0.2', '2.0.0', '2.1.0' ] ]
+243 silly addNamed warning@2.1.0
+244 verbose addNamed "2.1.0" is a plain semver version for warning
+245 silly cache afterAdd warning@2.1.0
+246 verbose afterAdd /Users/yong8/.npm/warning/2.1.0/package/package.json not in flight; writing
+247 verbose afterAdd /Users/yong8/.npm/warning/2.1.0/package/package.json written
+248 silly install resolved [ { name: 'invariant',
+248 silly install resolved     version: '2.2.0',
+248 silly install resolved     description: 'invariant',
+248 silly install resolved     keywords: [ 'test' ],
+248 silly install resolved     license: 'BSD-3-Clause',
+248 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+248 silly install resolved     files: [ 'invariant.js', 'browser.js' ],
+248 silly install resolved     repository:
+248 silly install resolved      { type: 'git',
+248 silly install resolved        url: 'git+https://github.com/zertosh/invariant.git' },
+248 silly install resolved     scripts: { test: 'NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js' },
+248 silly install resolved     dependencies: { 'loose-envify': '^1.0.0' },
+248 silly install resolved     devDependencies: { browserify: '^11.0.1', tap: '^1.4.0' },
+248 silly install resolved     main: 'invariant.js',
+248 silly install resolved     browser: 'browser.js',
+248 silly install resolved     browserify: { transform: [Object] },
+248 silly install resolved     gitHead: '1660eab9f183183e71ef57a7765bb1121680fff9',
+248 silly install resolved     bugs: { url: 'https://github.com/zertosh/invariant/issues' },
+248 silly install resolved     homepage: 'https://github.com/zertosh/invariant#readme',
+248 silly install resolved     _id: 'invariant@2.2.0',
+248 silly install resolved     _shasum: 'c8d7e847366a49cc18b622f058a689d481e895f2',
+248 silly install resolved     _from: 'invariant@>=2.0.0 <3.0.0',
+248 silly install resolved     _npmVersion: '2.14.7',
+248 silly install resolved     _nodeVersion: '4.2.2',
+248 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+248 silly install resolved     maintainers: [ [Object] ],
+248 silly install resolved     dist:
+248 silly install resolved      { shasum: 'c8d7e847366a49cc18b622f058a689d481e895f2',
+248 silly install resolved        tarball: 'http://registry.npmjs.org/invariant/-/invariant-2.2.0.tgz' },
+248 silly install resolved     directories: {},
+248 silly install resolved     _resolved: 'https://registry.npmjs.org/invariant/-/invariant-2.2.0.tgz',
+248 silly install resolved     readme: 'ERROR: No README data found!' },
+248 silly install resolved   { name: 'warning',
+248 silly install resolved     version: '2.1.0',
+248 silly install resolved     description: 'A mirror of Facebook\'s Warning',
+248 silly install resolved     main: 'warning.js',
+248 silly install resolved     browser: 'browser.js',
+248 silly install resolved     browserify: { transform: [Object] },
+248 silly install resolved     files: [ 'browser.js', 'warning.js' ],
+248 silly install resolved     scripts: { test: 'NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js' },
+248 silly install resolved     dependencies: { 'loose-envify': '^1.0.0' },
+248 silly install resolved     devDependencies: { browserify: '^11.0.1', tap: '^1.4.0' },
+248 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/r3dm/warning.git' },
+248 silly install resolved     keywords: [ 'warning', 'facebook', 'react', 'invariant' ],
+248 silly install resolved     author:
+248 silly install resolved      { name: 'Berkeley Martinez',
+248 silly install resolved        email: 'berkeley@r3dm.com',
+248 silly install resolved        url: 'http://r3dm.com' },
+248 silly install resolved     license: 'BSD-2-Clause',
+248 silly install resolved     bugs: { url: 'https://github.com/r3dm/warning/issues' },
+248 silly install resolved     homepage: 'https://github.com/r3dm/warning',
+248 silly install resolved     gitHead: 'b7d56e3f6c21c3ee05af617222d16c7d80118443',
+248 silly install resolved     _id: 'warning@2.1.0',
+248 silly install resolved     _shasum: '21220d9c63afc77a8c92111e011af705ce0c6901',
+248 silly install resolved     _from: 'warning@>=2.0.0 <3.0.0',
+248 silly install resolved     _npmVersion: '2.11.1',
+248 silly install resolved     _nodeVersion: '1.6.4',
+248 silly install resolved     _npmUser: { name: 'berkeleytrue', email: 'berkeley@robotie.com' },
+248 silly install resolved     maintainers: [ [Object] ],
+248 silly install resolved     dist:
+248 silly install resolved      { shasum: '21220d9c63afc77a8c92111e011af705ce0c6901',
+248 silly install resolved        tarball: 'http://registry.npmjs.org/warning/-/warning-2.1.0.tgz' },
+248 silly install resolved     directories: {},
+248 silly install resolved     _resolved: 'https://registry.npmjs.org/warning/-/warning-2.1.0.tgz',
+248 silly install resolved     readme: 'ERROR: No README data found!' } ]
+249 info install invariant@2.2.0 into /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+250 info install warning@2.1.0 into /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+251 info installOne invariant@2.2.0
+252 verbose installOne of invariant to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router not in flight; installing
+253 info installOne warning@2.1.0
+254 verbose installOne of warning to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router not in flight; installing
+255 verbose lock using /Users/yong8/.npm/_locks/invariant-4a67526b93ef8d31.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+256 verbose lock using /Users/yong8/.npm/_locks/warning-0c9d1e240306020a.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+257 silly install write writing invariant 2.2.0 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+258 silly install write writing warning 2.1.0 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+259 verbose unbuild node_modules/react-router/node_modules/invariant
+260 verbose unbuild node_modules/react-router/node_modules/warning
+261 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+262 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+263 verbose tar unpack /Users/yong8/.npm/invariant/2.2.0/package.tgz
+264 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+265 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant is being purged
+266 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+267 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+268 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+269 silly gunzTarPerm modes [ '755', '644' ]
+270 verbose tar unpack /Users/yong8/.npm/warning/2.1.0/package.tgz
+271 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+272 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning is being purged
+273 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+274 silly gunzTarPerm modes [ '755', '644' ]
+275 silly gunzTarPerm extractEntry package.json
+276 silly gunzTarPerm extractEntry package.json
+277 silly gunzTarPerm extractEntry README.md
+278 silly gunzTarPerm extractEntry browser.js
+279 silly gunzTarPerm extractEntry README.md
+280 silly gunzTarPerm extractEntry browser.js
+281 silly gunzTarPerm extractEntry invariant.js
+282 silly gunzTarPerm extractEntry CHANGELOG.md
+283 silly gunzTarPerm extractEntry warning.js
+284 silly gunzTarPerm extractEntry CHANGELOG.md
+285 silly gunzTarPerm extractEntry LICENSE.md
+286 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/package.json
+287 info preinstall invariant@2.2.0
+288 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/package.json
+289 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/package.json
+290 silly prepareForInstallMany adding loose-envify@^1.0.0 from invariant dependencies
+291 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/package.json
+292 info preinstall warning@2.1.0
+293 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/package.json
+294 silly cache add args [ 'loose-envify@^1.0.0', null ]
+295 verbose cache add spec loose-envify@^1.0.0
+296 silly cache add parsed spec { raw: 'loose-envify@^1.0.0',
+296 silly cache add   scope: null,
+296 silly cache add   name: 'loose-envify',
+296 silly cache add   rawSpec: '^1.0.0',
+296 silly cache add   spec: '>=1.0.0 <2.0.0',
+296 silly cache add   type: 'range' }
+297 silly addNamed loose-envify@>=1.0.0 <2.0.0
+298 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for loose-envify
+299 silly addNameRange { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: false }
+300 silly mapToRegistry name loose-envify
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+304 verbose addNameRange registry:https://registry.npmjs.org/loose-envify not in flight; fetching
+305 silly prepareForInstallMany adding loose-envify@^1.0.0 from warning dependencies
+306 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/package.json
+307 verbose request uri https://registry.npmjs.org/loose-envify
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 17:43:49
+310 verbose etag "2L56VY41TJJXRF6O0PIETR3YS"
+311 http request GET https://registry.npmjs.org/loose-envify
+312 silly cache add args [ 'loose-envify@^1.0.0', null ]
+313 verbose cache add spec loose-envify@^1.0.0
+314 silly cache add parsed spec { raw: 'loose-envify@^1.0.0',
+314 silly cache add   scope: null,
+314 silly cache add   name: 'loose-envify',
+314 silly cache add   rawSpec: '^1.0.0',
+314 silly cache add   spec: '>=1.0.0 <2.0.0',
+314 silly cache add   type: 'range' }
+315 silly addNamed loose-envify@>=1.0.0 <2.0.0
+316 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for loose-envify
+317 silly addNameRange { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: false }
+318 silly mapToRegistry name loose-envify
+319 silly mapToRegistry using default registry
+320 silly mapToRegistry registry https://registry.npmjs.org/
+321 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+322 verbose addNameRange registry:https://registry.npmjs.org/loose-envify already in flight; waiting
+323 http 304 https://registry.npmjs.org/loose-envify
+324 silly get cb [ 304,
+324 silly get   { date: 'Sat, 02 Jan 2016 22:43:49 GMT',
+324 silly get     via: '1.1 varnish',
+324 silly get     'cache-control': 'max-age=300',
+324 silly get     etag: '"2L56VY41TJJXRF6O0PIETR3YS"',
+324 silly get     age: '45',
+324 silly get     connection: 'keep-alive',
+324 silly get     'x-served-by': 'cache-jfk1031-JFK',
+324 silly get     'x-cache': 'HIT',
+324 silly get     'x-cache-hits': '1',
+324 silly get     'x-timer': 'S1451774629.732124,VS0,VE0',
+324 silly get     vary: 'Accept' } ]
+325 verbose etag https://registry.npmjs.org/loose-envify from cache
+326 verbose get saving loose-envify to /Users/yong8/.npm/registry.npmjs.org/loose-envify/.cache.json
+327 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: true }
+328 silly addNameRange versions [ 'loose-envify', [ '1.0.0', '1.1.0' ] ]
+329 silly addNamed loose-envify@1.1.0
+330 verbose addNamed "1.1.0" is a plain semver version for loose-envify
+331 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.0.0 <2.0.0', hasData: true }
+332 silly addNameRange versions [ 'loose-envify', [ '1.0.0', '1.1.0' ] ]
+333 silly addNamed loose-envify@1.1.0
+334 verbose addNamed "1.1.0" is a plain semver version for loose-envify
+335 silly cache afterAdd loose-envify@1.1.0
+336 verbose afterAdd /Users/yong8/.npm/loose-envify/1.1.0/package/package.json not in flight; writing
+337 silly cache afterAdd loose-envify@1.1.0
+338 verbose afterAdd /Users/yong8/.npm/loose-envify/1.1.0/package/package.json already in flight; not writing
+339 verbose afterAdd /Users/yong8/.npm/loose-envify/1.1.0/package/package.json written
+340 silly install resolved [ { name: 'loose-envify',
+340 silly install resolved     version: '1.1.0',
+340 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+340 silly install resolved     keywords:
+340 silly install resolved      [ 'environment',
+340 silly install resolved        'variables',
+340 silly install resolved        'browserify',
+340 silly install resolved        'browserify-transform',
+340 silly install resolved        'transform',
+340 silly install resolved        'source',
+340 silly install resolved        'configuration' ],
+340 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+340 silly install resolved     license: 'MIT',
+340 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+340 silly install resolved     repository:
+340 silly install resolved      { type: 'git',
+340 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+340 silly install resolved     scripts: { test: 'tap test/*.js' },
+340 silly install resolved     dependencies: { 'js-tokens': '^1.0.1' },
+340 silly install resolved     devDependencies: { browserify: '^11.0.1', envify: '^3.4.0', tap: '^1.4.0' },
+340 silly install resolved     gitHead: 'f536f4fdbde317d77827ac8655c6c8473928b9e1',
+340 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+340 silly install resolved     _id: 'loose-envify@1.1.0',
+340 silly install resolved     _shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+340 silly install resolved     _from: 'loose-envify@>=1.0.0 <2.0.0',
+340 silly install resolved     _npmVersion: '2.14.4',
+340 silly install resolved     _nodeVersion: '4.1.2',
+340 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+340 silly install resolved     maintainers: [ [Object] ],
+340 silly install resolved     dist:
+340 silly install resolved      { shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+340 silly install resolved        tarball: 'http://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz' },
+340 silly install resolved     directories: {},
+340 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz',
+340 silly install resolved     readme: 'ERROR: No README data found!' } ]
+341 info install loose-envify@1.1.0 into /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+342 info installOne loose-envify@1.1.0
+343 verbose installOne of loose-envify to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant not in flight; installing
+344 silly install resolved [ { name: 'loose-envify',
+344 silly install resolved     version: '1.1.0',
+344 silly install resolved     description: 'Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST',
+344 silly install resolved     keywords:
+344 silly install resolved      [ 'environment',
+344 silly install resolved        'variables',
+344 silly install resolved        'browserify',
+344 silly install resolved        'browserify-transform',
+344 silly install resolved        'transform',
+344 silly install resolved        'source',
+344 silly install resolved        'configuration' ],
+344 silly install resolved     homepage: 'https://github.com/zertosh/loose-envify',
+344 silly install resolved     license: 'MIT',
+344 silly install resolved     author: { name: 'Andres Suarez', email: 'zertosh@gmail.com' },
+344 silly install resolved     repository:
+344 silly install resolved      { type: 'git',
+344 silly install resolved        url: 'git://github.com/zertosh/loose-envify.git' },
+344 silly install resolved     scripts: { test: 'tap test/*.js' },
+344 silly install resolved     dependencies: { 'js-tokens': '^1.0.1' },
+344 silly install resolved     devDependencies: { browserify: '^11.0.1', envify: '^3.4.0', tap: '^1.4.0' },
+344 silly install resolved     gitHead: 'f536f4fdbde317d77827ac8655c6c8473928b9e1',
+344 silly install resolved     bugs: { url: 'https://github.com/zertosh/loose-envify/issues' },
+344 silly install resolved     _id: 'loose-envify@1.1.0',
+344 silly install resolved     _shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+344 silly install resolved     _from: 'loose-envify@>=1.0.0 <2.0.0',
+344 silly install resolved     _npmVersion: '2.14.4',
+344 silly install resolved     _nodeVersion: '4.1.2',
+344 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+344 silly install resolved     maintainers: [ [Object] ],
+344 silly install resolved     dist:
+344 silly install resolved      { shasum: '527582d62cff4e04da3f9976c7110d3392ec7e0c',
+344 silly install resolved        tarball: 'http://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz' },
+344 silly install resolved     directories: {},
+344 silly install resolved     _resolved: 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.1.0.tgz',
+344 silly install resolved     readme: 'ERROR: No README data found!' } ]
+345 info install loose-envify@1.1.0 into /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+346 info installOne loose-envify@1.1.0
+347 verbose installOne of loose-envify to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning not in flight; installing
+348 verbose lock using /Users/yong8/.npm/_locks/loose-envify-1f3c644bac499c00.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+349 silly install write writing loose-envify 1.1.0 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+350 verbose lock using /Users/yong8/.npm/_locks/loose-envify-68123d5b935efdab.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+351 silly install write writing loose-envify 1.1.0 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+352 verbose unbuild node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+353 verbose unbuild node_modules/react-router/node_modules/warning/node_modules/loose-envify
+354 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+355 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+356 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+357 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+358 verbose tar unpack /Users/yong8/.npm/loose-envify/1.1.0/package.tgz
+359 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+360 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify is being purged
+361 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+362 verbose tar unpack /Users/yong8/.npm/loose-envify/1.1.0/package.tgz
+363 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+364 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify is being purged
+365 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 silly gunzTarPerm modes [ '755', '644' ]
+368 silly gunzTarPerm extractEntry package.json
+369 silly gunzTarPerm extractEntry package.json
+370 silly gunzTarPerm extractEntry .npmignore
+371 silly gunzTarPerm extractEntry README.md
+372 silly gunzTarPerm extractEntry .npmignore
+373 silly gunzTarPerm extractEntry README.md
+374 silly gunzTarPerm extractEntry index.js
+375 silly gunzTarPerm extractEntry custom.js
+376 silly gunzTarPerm extractEntry index.js
+377 silly gunzTarPerm extractEntry custom.js
+378 silly gunzTarPerm extractEntry loose-envify.js
+379 silly gunzTarPerm extractEntry replace.js
+380 silly gunzTarPerm extractEntry loose-envify.js
+381 silly gunzTarPerm extractEntry replace.js
+382 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/package.json
+383 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/package.json
+384 info preinstall loose-envify@1.1.0
+385 info preinstall loose-envify@1.1.0
+386 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/package.json
+387 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/package.json
+388 silly prepareForInstallMany adding js-tokens@^1.0.1 from loose-envify dependencies
+389 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/package.json
+390 silly prepareForInstallMany adding js-tokens@^1.0.1 from loose-envify dependencies
+391 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/package.json
+392 silly cache add args [ 'js-tokens@^1.0.1', null ]
+393 verbose cache add spec js-tokens@^1.0.1
+394 silly cache add parsed spec { raw: 'js-tokens@^1.0.1',
+394 silly cache add   scope: null,
+394 silly cache add   name: 'js-tokens',
+394 silly cache add   rawSpec: '^1.0.1',
+394 silly cache add   spec: '>=1.0.1 <2.0.0',
+394 silly cache add   type: 'range' }
+395 silly addNamed js-tokens@>=1.0.1 <2.0.0
+396 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for js-tokens
+397 silly addNameRange { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: false }
+398 silly mapToRegistry name js-tokens
+399 silly mapToRegistry using default registry
+400 silly mapToRegistry registry https://registry.npmjs.org/
+401 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+402 verbose addNameRange registry:https://registry.npmjs.org/js-tokens not in flight; fetching
+403 silly cache add args [ 'js-tokens@^1.0.1', null ]
+404 verbose cache add spec js-tokens@^1.0.1
+405 silly cache add parsed spec { raw: 'js-tokens@^1.0.1',
+405 silly cache add   scope: null,
+405 silly cache add   name: 'js-tokens',
+405 silly cache add   rawSpec: '^1.0.1',
+405 silly cache add   spec: '>=1.0.1 <2.0.0',
+405 silly cache add   type: 'range' }
+406 silly addNamed js-tokens@>=1.0.1 <2.0.0
+407 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for js-tokens
+408 silly addNameRange { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: false }
+409 silly mapToRegistry name js-tokens
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry https://registry.npmjs.org/
+412 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+413 verbose addNameRange registry:https://registry.npmjs.org/js-tokens already in flight; waiting
+414 verbose request uri https://registry.npmjs.org/js-tokens
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 17:43:49
+417 verbose etag "F4N7TBLBJ8Z40VG7DPO546R7U"
+418 http request GET https://registry.npmjs.org/js-tokens
+419 http 304 https://registry.npmjs.org/js-tokens
+420 silly get cb [ 304,
+420 silly get   { date: 'Sat, 02 Jan 2016 22:43:49 GMT',
+420 silly get     via: '1.1 varnish',
+420 silly get     'cache-control': 'max-age=300',
+420 silly get     etag: '"F4N7TBLBJ8Z40VG7DPO546R7U"',
+420 silly get     age: '254',
+420 silly get     connection: 'keep-alive',
+420 silly get     'x-served-by': 'cache-jfk1022-JFK',
+420 silly get     'x-cache': 'HIT',
+420 silly get     'x-cache-hits': '2',
+420 silly get     'x-timer': 'S1451774629.981094,VS0,VE0',
+420 silly get     vary: 'Accept' } ]
+421 verbose etag https://registry.npmjs.org/js-tokens from cache
+422 verbose get saving js-tokens to /Users/yong8/.npm/registry.npmjs.org/js-tokens/.cache.json
+423 silly addNameRange number 2 { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: true }
+424 silly addNameRange versions [ 'js-tokens',
+424 silly addNameRange   [ '0.1.0',
+424 silly addNameRange     '0.2.0',
+424 silly addNameRange     '0.3.0',
+424 silly addNameRange     '0.3.1',
+424 silly addNameRange     '0.4.0',
+424 silly addNameRange     '0.4.1',
+424 silly addNameRange     '1.0.0',
+424 silly addNameRange     '1.0.1',
+424 silly addNameRange     '1.0.2' ] ]
+425 silly addNamed js-tokens@1.0.2
+426 verbose addNamed "1.0.2" is a plain semver version for js-tokens
+427 silly addNameRange number 2 { name: 'js-tokens', range: '>=1.0.1 <2.0.0', hasData: true }
+428 silly addNameRange versions [ 'js-tokens',
+428 silly addNameRange   [ '0.1.0',
+428 silly addNameRange     '0.2.0',
+428 silly addNameRange     '0.3.0',
+428 silly addNameRange     '0.3.1',
+428 silly addNameRange     '0.4.0',
+428 silly addNameRange     '0.4.1',
+428 silly addNameRange     '1.0.0',
+428 silly addNameRange     '1.0.1',
+428 silly addNameRange     '1.0.2' ] ]
+429 silly addNamed js-tokens@1.0.2
+430 verbose addNamed "1.0.2" is a plain semver version for js-tokens
+431 silly cache afterAdd js-tokens@1.0.2
+432 verbose afterAdd /Users/yong8/.npm/js-tokens/1.0.2/package/package.json not in flight; writing
+433 silly cache afterAdd js-tokens@1.0.2
+434 verbose afterAdd /Users/yong8/.npm/js-tokens/1.0.2/package/package.json already in flight; not writing
+435 verbose afterAdd /Users/yong8/.npm/js-tokens/1.0.2/package/package.json written
+436 silly install resolved [ { name: 'js-tokens',
+436 silly install resolved     version: '1.0.2',
+436 silly install resolved     author: { name: 'Simon Lydell' },
+436 silly install resolved     license: 'MIT',
+436 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+436 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+436 silly install resolved     files: [ 'index.js' ],
+436 silly install resolved     repository:
+436 silly install resolved      { type: 'git',
+436 silly install resolved        url: 'git+https://github.com/lydell/js-tokens.git' },
+436 silly install resolved     scripts:
+436 silly install resolved      { test: 'mocha --ui tdd',
+436 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js',
+436 silly install resolved        build: 'node generate-index.js',
+436 silly install resolved        dev: 'npm run build && npm test' },
+436 silly install resolved     devDependencies:
+436 silly install resolved      { 'coffee-script': '~1.9.3',
+436 silly install resolved        esprima: '^2.3.0',
+436 silly install resolved        'everything.js': '^1.0.3',
+436 silly install resolved        mocha: '^2.2.5' },
+436 silly install resolved     gitHead: '90f0f0a217984625180414763234c923aeee4af5',
+436 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+436 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+436 silly install resolved     _id: 'js-tokens@1.0.2',
+436 silly install resolved     _shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+436 silly install resolved     _from: 'js-tokens@>=1.0.1 <2.0.0',
+436 silly install resolved     _npmVersion: '2.14.7',
+436 silly install resolved     _nodeVersion: '4.2.1',
+436 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+436 silly install resolved     dist:
+436 silly install resolved      { shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+436 silly install resolved        tarball: 'http://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz' },
+436 silly install resolved     maintainers: [ [Object] ],
+436 silly install resolved     directories: {},
+436 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz',
+436 silly install resolved     readme: 'ERROR: No README data found!' } ]
+437 info install js-tokens@1.0.2 into /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+438 info installOne js-tokens@1.0.2
+439 verbose installOne of js-tokens to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify not in flight; installing
+440 silly install resolved [ { name: 'js-tokens',
+440 silly install resolved     version: '1.0.2',
+440 silly install resolved     author: { name: 'Simon Lydell' },
+440 silly install resolved     license: 'MIT',
+440 silly install resolved     description: 'A regex that tokenizes JavaScript.',
+440 silly install resolved     keywords: [ 'JavaScript', 'js', 'token', 'tokenize', 'regex' ],
+440 silly install resolved     files: [ 'index.js' ],
+440 silly install resolved     repository:
+440 silly install resolved      { type: 'git',
+440 silly install resolved        url: 'git+https://github.com/lydell/js-tokens.git' },
+440 silly install resolved     scripts:
+440 silly install resolved      { test: 'mocha --ui tdd',
+440 silly install resolved        'esprima-compare': 'node esprima-compare ./index.js everything.js/es5.js',
+440 silly install resolved        build: 'node generate-index.js',
+440 silly install resolved        dev: 'npm run build && npm test' },
+440 silly install resolved     devDependencies:
+440 silly install resolved      { 'coffee-script': '~1.9.3',
+440 silly install resolved        esprima: '^2.3.0',
+440 silly install resolved        'everything.js': '^1.0.3',
+440 silly install resolved        mocha: '^2.2.5' },
+440 silly install resolved     gitHead: '90f0f0a217984625180414763234c923aeee4af5',
+440 silly install resolved     bugs: { url: 'https://github.com/lydell/js-tokens/issues' },
+440 silly install resolved     homepage: 'https://github.com/lydell/js-tokens#readme',
+440 silly install resolved     _id: 'js-tokens@1.0.2',
+440 silly install resolved     _shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+440 silly install resolved     _from: 'js-tokens@>=1.0.1 <2.0.0',
+440 silly install resolved     _npmVersion: '2.14.7',
+440 silly install resolved     _nodeVersion: '4.2.1',
+440 silly install resolved     _npmUser: { name: 'lydell', email: 'simon.lydell@gmail.com' },
+440 silly install resolved     dist:
+440 silly install resolved      { shasum: '8647f7e13f64ac15d9357a59a346c804d53b3efe',
+440 silly install resolved        tarball: 'http://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz' },
+440 silly install resolved     maintainers: [ [Object] ],
+440 silly install resolved     directories: {},
+440 silly install resolved     _resolved: 'https://registry.npmjs.org/js-tokens/-/js-tokens-1.0.2.tgz',
+440 silly install resolved     readme: 'ERROR: No README data found!' } ]
+441 info install js-tokens@1.0.2 into /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+442 info installOne js-tokens@1.0.2
+443 verbose installOne of js-tokens to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify not in flight; installing
+444 verbose lock using /Users/yong8/.npm/_locks/js-tokens-79befd86b236c291.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+445 silly install write writing js-tokens 1.0.2 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+446 verbose lock using /Users/yong8/.npm/_locks/js-tokens-5a1c9c7743490c29.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+447 silly install write writing js-tokens 1.0.2 to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+448 verbose unbuild node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+449 verbose unbuild node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+450 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+451 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+452 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens is being purged from base /Users/yong8/Workspace/reactjs/ex_working_notes
+453 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+454 verbose tar unpack /Users/yong8/.npm/js-tokens/1.0.2/package.tgz
+455 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+456 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens is being purged
+457 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+458 verbose tar unpack /Users/yong8/.npm/js-tokens/1.0.2/package.tgz
+459 verbose tar unpacking to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+460 silly gentlyRm /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens is being purged
+461 verbose gentlyRm don't care about contents; nuking /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+462 silly gunzTarPerm modes [ '755', '644' ]
+463 silly gunzTarPerm modes [ '755', '644' ]
+464 silly gunzTarPerm extractEntry package.json
+465 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+466 silly gunzTarPerm extractEntry package.json
+467 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+468 silly gunzTarPerm extractEntry LICENSE
+469 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+470 silly gunzTarPerm extractEntry index.js
+471 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+472 silly gunzTarPerm extractEntry LICENSE
+473 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+474 silly gunzTarPerm extractEntry index.js
+475 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+476 silly gunzTarPerm extractEntry changelog.md
+477 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+478 silly gunzTarPerm extractEntry readme.md
+479 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+480 silly gunzTarPerm extractEntry changelog.md
+481 silly gunzTarPerm modified mode [ 'changelog.md', 436, 420 ]
+482 silly gunzTarPerm extractEntry readme.md
+483 silly gunzTarPerm modified mode [ 'readme.md', 436, 420 ]
+484 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/package.json
+485 verbose write writing to /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/package.json
+486 info preinstall js-tokens@1.0.2
+487 info preinstall js-tokens@1.0.2
+488 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/package.json
+489 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/package.json
+490 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens/package.json
+491 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens/package.json
+492 silly install resolved []
+493 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+494 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+495 silly install resolved []
+496 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+497 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+498 info linkStuff js-tokens@1.0.2
+499 silly linkStuff js-tokens@1.0.2 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules as its parent node_modules
+500 info linkStuff js-tokens@1.0.2
+501 silly linkStuff js-tokens@1.0.2 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules as its parent node_modules
+502 verbose linkBins js-tokens@1.0.2
+503 verbose linkMans js-tokens@1.0.2
+504 verbose rebuildBundles js-tokens@1.0.2
+505 verbose linkBins js-tokens@1.0.2
+506 verbose linkMans js-tokens@1.0.2
+507 verbose rebuildBundles js-tokens@1.0.2
+508 info install js-tokens@1.0.2
+509 info install js-tokens@1.0.2
+510 info postinstall js-tokens@1.0.2
+511 info postinstall js-tokens@1.0.2
+512 verbose unlock done using /Users/yong8/.npm/_locks/js-tokens-79befd86b236c291.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify/node_modules/js-tokens
+513 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+514 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+515 verbose unlock done using /Users/yong8/.npm/_locks/js-tokens-5a1c9c7743490c29.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify/node_modules/js-tokens
+516 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+517 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+518 info linkStuff loose-envify@1.1.0
+519 silly linkStuff loose-envify@1.1.0 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules as its parent node_modules
+520 info linkStuff loose-envify@1.1.0
+521 silly linkStuff loose-envify@1.1.0 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules as its parent node_modules
+522 verbose linkBins loose-envify@1.1.0
+523 verbose linkMans loose-envify@1.1.0
+524 verbose rebuildBundles loose-envify@1.1.0
+525 verbose linkBins loose-envify@1.1.0
+526 verbose linkMans loose-envify@1.1.0
+527 verbose rebuildBundles loose-envify@1.1.0
+528 verbose rebuildBundles [ 'js-tokens' ]
+529 info install loose-envify@1.1.0
+530 verbose rebuildBundles [ 'js-tokens' ]
+531 info install loose-envify@1.1.0
+532 info postinstall loose-envify@1.1.0
+533 info postinstall loose-envify@1.1.0
+534 verbose unlock done using /Users/yong8/.npm/_locks/loose-envify-1f3c644bac499c00.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant/node_modules/loose-envify
+535 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+536 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+537 verbose unlock done using /Users/yong8/.npm/_locks/loose-envify-68123d5b935efdab.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning/node_modules/loose-envify
+538 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+539 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+540 info linkStuff invariant@2.2.0
+541 silly linkStuff invariant@2.2.0 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules as its parent node_modules
+542 info linkStuff warning@2.1.0
+543 silly linkStuff warning@2.1.0 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules as its parent node_modules
+544 verbose linkBins invariant@2.2.0
+545 verbose linkMans invariant@2.2.0
+546 verbose rebuildBundles invariant@2.2.0
+547 verbose linkBins warning@2.1.0
+548 verbose linkMans warning@2.1.0
+549 verbose rebuildBundles warning@2.1.0
+550 verbose rebuildBundles [ 'loose-envify' ]
+551 info install invariant@2.2.0
+552 verbose rebuildBundles [ 'loose-envify' ]
+553 info install warning@2.1.0
+554 info postinstall invariant@2.2.0
+555 info postinstall warning@2.1.0
+556 verbose unlock done using /Users/yong8/.npm/_locks/invariant-4a67526b93ef8d31.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/invariant
+557 verbose unlock done using /Users/yong8/.npm/_locks/warning-0c9d1e240306020a.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/node_modules/warning
+558 verbose about to build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+559 info build /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+560 info linkStuff react-router@1.0.3
+561 silly linkStuff react-router@1.0.3 has /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules as its parent node_modules
+562 verbose linkBins react-router@1.0.3
+563 verbose linkMans react-router@1.0.3
+564 verbose rebuildBundles react-router@1.0.3
+565 verbose rebuildBundles [ 'invariant', 'warning' ]
+566 info install react-router@1.0.3
+567 info postinstall react-router@1.0.3
+568 verbose unsafe-perm in lifecycle true
+569 verbose readDependencies loading dependencies from /Users/yong8/Workspace/reactjs/ex_working_notes/package.json
+570 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/autobind-decorator/package.json
+571 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/babel/package.json
+572 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/babelify/package.json
+573 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/body-parser/package.json
+574 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/browser-sync/package.json
+575 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/browserify/package.json
+576 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/connect-history-api-fallback/package.json
+577 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/express/package.json
+578 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/firebase/package.json
+579 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp/package.json
+580 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-autoprefixer/package.json
+581 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-concat/package.json
+582 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-html-replace/package.json
+583 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-notify/package.json
+584 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-react/package.json
+585 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-rename/package.json
+586 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-stylus/package.json
+587 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-uglify/package.json
+588 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/gulp-util/package.json
+589 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/history/package.json
+590 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/install/package.json
+591 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/re-base/package.json
+592 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react/package.json
+593 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-addons-css-transition-group/package.json
+594 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-catalyst/package.json
+595 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-dom/package.json
+596 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-mixin/package.json
+597 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router/package.json
+598 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/vinyl-buffer/package.json
+599 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/vinyl-source-stream/package.json
+600 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/watchify/package.json
+601 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/babel/package.json
+602 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/babel-external-helpers/package.json
+603 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/babel-node/package.json
+604 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/babel-plugin/package.json
+605 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/browser-sync/package.json
+606 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/browserify/package.json
+607 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/gulp/package.json
+608 verbose targetResolver reading package data from /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/.bin/watchify/package.json
+609 verbose already installed skipping history@^1.17.0 /Users/yong8/Workspace/reactjs/ex_working_notes
+610 silly install resolved []
+611 verbose unlock done using /Users/yong8/.npm/_locks/react-router-d42b2bd50ce84adb.lock for /Users/yong8/Workspace/reactjs/ex_working_notes/node_modules/react-router
+612 verbose validateInstall loading /Users/yong8/Workspace/reactjs/ex_working_notes/package.json for validation
+613 verbose stack Error: The package history does not satisfy its siblings' peerDependencies requirements!
+613 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+613 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+613 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+613 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+613 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+613 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+613 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+613 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+613 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+613 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+614 verbose cwd /Users/yong8/Workspace/reactjs/ex_working_notes
+615 error Darwin 15.2.0
+616 error argv "node" "/usr/local/bin/npm" "install" "react-router" "--save-dev"
+617 error node v0.12.7
+618 error npm  v2.12.1
+619 error code EPEERINVALID
+620 error peerinvalid The package history does not satisfy its siblings' peerDependencies requirements!
+620 error peerinvalid Peer react-router@1.0.3 wants history@^1.17.0
+621 verbose exit [ 1, true ]
